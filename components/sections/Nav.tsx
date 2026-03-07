@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { NAV, SITE } from "@/lib/data";
+import Image from "next/image";
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
@@ -72,15 +73,7 @@ export default function Nav() {
                 boxShadow: "0 2px 8px rgba(27,94,59,0.35)",
               }}
             >
-              <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-                {/* Location pin — clean geometry */}
-                <path
-                  d="M9 1.5C6.515 1.5 4.5 3.515 4.5 6c0 3.375 4.5 10.5 4.5 10.5S13.5 9.375 13.5 6c0-2.485-2.015-4.5-4.5-4.5Z"
-                  fill="#F0EEE9"
-                  opacity="0.95"
-                />
-                <circle cx="9" cy="6" r="1.75" fill="#1B5E3B" />
-              </svg>
+              <Image src="/logo.png" alt="Location pin" width={18} height={18} />
             </div>
 
             {/* Wordmark — two-tone: NAVI dark, SS accent */}

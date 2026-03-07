@@ -2,9 +2,15 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Cursor from "@/components/ui/Cursor";
 
+
 export const metadata: Metadata = {
   title: "Naviss Technologies — Where Location Meets Intelligence",
   description: "Geospatial & digital solutions firm transforming spatial data into strategic advantage for governments, NGOs, and enterprises across Africa.",
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
