@@ -6,6 +6,11 @@ export const SITE = {
   email:     "navisstech@gmail.com",
   location:  "Abuja, Nigeria",
   founded:   "2025",
+  social: [
+    { label: "LinkedIn", href: "https://linkedin.com" },
+    { label: "Twitter / X", href: "https://twitter.com/navisstech" },
+    { label: "GitHub", href: "https://github.com" },
+  ],
 };
 
 export const NAV = [

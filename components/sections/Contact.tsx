@@ -51,8 +51,8 @@ export default function Contact() {
 
             <SR delay={260}>
               <div className="pt-8 flex flex-wrap gap-3">
-                {["LinkedIn","Twitter / X","GitHub"].map(s=>(
-                  <SocialLink key={s} href="#" label={s} />
+                {SITE.social.map(link=>(
+                  <SocialLink key={link.label} href={link.href} label={link.label} />
                 ))}
               </div>
             </SR>

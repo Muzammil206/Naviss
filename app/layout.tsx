@@ -4,7 +4,7 @@ import Cursor from "@/components/ui/Cursor";
 
 
 export const metadata: Metadata = {
-  title: "Naviss Technologies — Where Location Meets Intelligence",
+  title: "Naviss Technologies — Lets build something that matters.",
   description: "Geospatial & digital solutions firm transforming spatial data into strategic advantage for governments, NGOs, and enterprises across Africa.",
   icons: {
     icon: "/favicon.ico",
