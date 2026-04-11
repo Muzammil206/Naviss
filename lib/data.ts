@@ -3,7 +3,7 @@ export const SITE = {
   tagline:   "Where Location Meets Intelligence",
   sub:       "Geospatial & Digital Solutions · Abuja, Nigeria",
   phone:     "+234 806 696 8490",
-  email:     "info@navisstech.com",
+  email:     "navisstech@gmail.com",
   location:  "Abuja, Nigeria",
   founded:   "2025",
 };
