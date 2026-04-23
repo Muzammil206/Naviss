@@ -15,12 +15,12 @@ export const SITE = {
 };
 
 export const NAV = [
-  { label: "Services", href: "#services"  },
-  { label: "Projects", href: "#projects"  },
-  { label: "Process",  href: "#process"   },
-  { label: "Sectors",  href: "#sectors"   },
-  { label: "About",    href: "#about"     },
-  { label: "Team",     href: "#team"      },
+  { label: "Services", href: "/#services"  },
+  { label: "Projects", href: "/#projects"  },
+  { label: "Careers",  href: "#careers"   },
+  { label: "Sectors",  href: "/#sectors"   },
+  { label: "About",    href: "/#about"     },
+  { label: "Team",     href: "/team"      },
 ];
 
 export const PROJECTS = [
@@ -131,4 +131,84 @@ export const SECTORS = [
   { title:"Oil and Gas",                     sub:"Exploration, pipeline monitoring, environmental impact" },
 ];
 
+
+export const TEAM = [
+  {
+    id: "001",
+    name: "Ismail Muzammil",
+    role: "Founder & Principal Consultant",
+    shortBio: "Geospatial strategist with 8+ years transforming spatial data into strategic advantage for governments and enterprises across West Africa.",
+    bio: "Adeola founded Naviss Technologies with a vision to democratize access to geospatial intelligence across Africa. With extensive experience in large-scale GIS implementations for government agencies, NGOs, and private sector clients, he leads strategic direction and client engagement. His expertise spans WebGIS architecture, land administration systems, and capacity development programmes.",
+    expertise: ["Geospatial Strategy", "Land Administration", "WebGIS Architecture", "Client Engagement"],
+    image: "/myimage.png?w=800&q=85",
+    email: "adeola@naviss.tech",
+    linkedin: "https://linkedin.com/in/adeolaadeyemi",
+  },
+  {
+    id: "002",
+    name: "Chioma Okonkwo",
+    role: "Lead GIS Developer",
+    shortBio: "Full-stack geospatial developer specializing in Next.js, PostGIS, and scalable spatial data infrastructure.",
+    bio: "Chioma architects and builds Naviss's flagship platforms, from multi-country data portals to real-time environmental monitoring systems. She brings expertise in modern web frameworks, spatial databases, and cloud infrastructure. Her work on the West Africa GeoPortal serves thousands of users daily across 6 countries.",
+    expertise: ["Next.js / React", "PostGIS / PostgreSQL", "Python / Django", "AWS / Azure", "Spatial APIs"],
+    image: "https://images.unsplash.com/photo-157349635942-b8d87734a5a2?w=800&q=85",
+    email: "chioma@naviss.tech",
+    linkedin: "https://linkedin.com/in/chiomaokonkwo",
+  },
+  {
+    id: "003",
+    name: "Ibrahim Habeeb Damilola",
+    role: "Senior Remote Sensing Analyst",
+    shortBio: "Remote sensing specialist with deep expertise in satellite imagery analysis, drone mapping, and environmental monitoring.",
+    bio: "Ibrahim leads Naviss's remote sensing and earth observation initiatives. He has processed and analyzed satellite imagery across millions of hectares for agricultural monitoring, land cover mapping, and environmental assessment. His technical proficiency spans multispectral analysis, change detection, and automated feature extraction using machine learning.",
+    expertise: ["Satellite Imagery Analysis", "Drone Mapping & Photogrammetry", "Google Earth Engine", "QGIS / ArcGIS Pro", "Machine Learning for RS"],
+    image: "/habib.jpg?w=800&q=85",
+    email: "ibrahim@naviss.tech",
+    linkedin: "https://linkedin.com/in/ibrahimmusa",
+  },
+  {
+    id: "004",
+    name: "Tousin ",
+    role: "Geospatial Data Scientist",
+    shortBio: "Data scientist applying AI/ML to spatial problems — from predictive modeling to real-time anomaly detection.",
+    bio: "Fatima brings machine learning and statistical rigor to geospatial analysis. She develops predictive models for environmental monitoring, builds spatial analytics pipelines, and creates intelligent alert systems. Her work on AirSense Nigeria's predictive air quality modeling provides early warnings for health interventions.",
+    expertise: ["Python / R", "Spatial Statistics", "TensorFlow / PyTorch", "Time-Series Analysis", "Data Visualization"],
+    image: "https://images.unsplash.com/photo-158048944761-15a19d654956?w=800&q=85",
+    email: "fatima@naviss.tech",
+    linkedin: "https://linkedin.com/in/fatimabello",
+  },
+  {
+    id: "005",
+    name: "Abdulsalam ",
+    role: "Field Operations Coordinator",
+    shortBio: "Field data collection specialist ensuring data quality and team coordination across challenging environments.",
+    bio: "Emeka manages Naviss's field operations, coordinating data collection teams, training enumerators, and ensuring quality assurance across projects. His experience spans mobile data collection campaigns in remote areas, UAV operations, and GNSS surveys. He bridges the gap between field realities and technical requirements.",
+    expertise: ["Mobile Data Collection", "UAV Operations", "GNSS / Survey Equipment", "Team Coordination", "Quality Assurance"],
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=800&q=85",
+    email: "emeka@naviss.tech",
+    linkedin: "https://linkedin.com/in/emekanwankwo",
+  },
+  {
+    id: "006",
+    name: "Ngozi Okeke",
+    role: "Training & Capacity Development Lead",
+    shortBio: "Educator and trainer building institutional GIS capacity through hands-on workshops and mentorship programmes.",
+    bio: "Ngozi designs and delivers Naviss's training programmes, from beginner GIS workshops to advanced technical certifications. She has trained over 200 government officials, NGO staff, and technical professionals across Nigeria. Her approach emphasizes practical skills, real-world applications, and sustainable knowledge transfer.",
+    expertise: ["GIS Training Curriculum", "Capacity Building", "Workshop Facilitation", "Technical Documentation", "Mentorship"],
+    image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800&q=85",
+    email: "ngozi@naviss.tech",
+    linkedin: "https://linkedin.com/in/ngoziokeke",
+  },
+  {
+    id: "007",
+    name: "Yusuf Abubakar",
+    role: "Junior GIS Analyst",
+    shortBio: "Emerging geospatial professional supporting data processing, spatial analysis, and quality assurance across projects.",
+    bio: "Yusuf supports Naviss projects through data processing, cartographic production, and spatial analysis tasks. He is developing expertise in QGIS, Python scripting, and geodatabase management while contributing to live client deliverables. His attention to detail and eagerness to learn make him a valuable asset to the technical team.",
+    expertise: ["QGIS", "Data Processing", "Cartography", "Python Scripting", "Spatial Analysis"],
+    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=800&q=85",
+    email: "yusuf@naviss.tech",
+    linkedin: "https://linkedin.com/in/yusufabubakar",
+  },
+];
 export const TICKER = ["Geospatial Intelligence","Drone & Satellite Mapping","Custom GIS Platforms","AI / ML Spatial Analytics","Digital Transformation","Cloud Infrastructure","Capacity Development","Real-Time Monitoring","Web GIS Dashboards","Spatial Databases"];

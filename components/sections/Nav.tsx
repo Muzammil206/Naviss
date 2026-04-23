@@ -65,7 +65,7 @@ export default function Nav() {
             {/* Clean compass/location mark — simple, readable at small sizes */}
             <div
               style={{
-                width: "32px", height: "32px",
+                width: "24px", height: "24px",
                 borderRadius: "8px",
                 background: "linear-gradient(135deg, #1B5E3B 0%, #2A7A50 100%)",
                 display: "flex", alignItems: "center", justifyContent: "center",
@@ -73,7 +73,7 @@ export default function Nav() {
                 boxShadow: "0 2px 8px rgba(27,94,59,0.35)",
               }}
             >
-              <Image src="/logo.png" alt="Location pin" width={18} height={18} />
+              <Image src="/logo1.png" alt="Location pin" width={18} height={18} />
             </div>
 
             {/* Wordmark — two-tone: NAVI dark, SS accent */}
