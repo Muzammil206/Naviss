@@ -101,8 +101,8 @@ export default function ProjectsPage() {
           <div className="wrap">
             <div className="grid md:grid-cols-2 gap-10">
               {filtered.map((project, i) => {
-                const status = "status" in project ? project.status : "Completed";
-                const liveUrl = "liveUrl" in project ? project.liveUrl : null;
+                const status = ("status" in project ? project.status : "Completed") as string;
+                const liveUrl = ("liveUrl" in project ? (project as any).liveUrl : null) as string | null;
                 
                 return (
                   <SR key={project.id} delay={i * 80}>
@@ -340,12 +340,12 @@ function ProjectModal({
   onClose: () => void;
   onRequestDemo: () => void;
 }) {
-  const status = "status" in project ? project.status : "Completed";
-  const liveUrl = "liveUrl" in project ? project.liveUrl : null;
-  const features = "features" in project ? project.features : null;
-  const deliverables = "deliverables" in project ? project.deliverables : null;
-  const tech = "tech" in project ? project.tech : null;
-  const testimonial = "testimonial" in project ? project.testimonial : null;
+  const status = ("status" in project ? project.status : "Completed") as string;
+  const liveUrl = ("liveUrl" in project ? (project as any).liveUrl : null) as string | null;
+  const features = ("features" in project ? (project as any).features : null) as string[] | null;
+  const deliverables = ("deliverables" in project ? (project as any).deliverables : null) as string[] | null;
+  const tech = ("tech" in project ? (project as any).tech : null) as string[] | null;
+  const testimonial = ("testimonial" in project ? (project as any).testimonial : null) as { quote: string; author: string; role: string } | null;
 
   return (
     <div
