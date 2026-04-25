@@ -177,14 +177,14 @@ export default function Hero() {
           >
             {/* Buttons */}
             <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
-              <a href="#contact" className="btn-v" style={{ fontSize: "0.65rem", padding: "12px 24px" }}>
+              <a href="/contact" className="btn-v" style={{ fontSize: "0.65rem", padding: "12px 24px" }}>
                 Partner With Us
                 <svg width="11" height="11" viewBox="0 0 11 11" fill="none">
                   <path d="M1.5 9.5L9.5 1.5M9.5 1.5H3.5M9.5 1.5V7.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
                 </svg>
               </a>
               <a
-                href="#projects"
+                href="/projects"
                 className="btn-o"
                 style={{ color: "#F0EEE9", borderColor: "rgba(240,238,233,0.22)", fontSize: "0.65rem", padding: "12px 24px" }}
               >
