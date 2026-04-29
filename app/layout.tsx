@@ -5,6 +5,25 @@ import Cursor from "@/components/ui/Cursor";
 
 export const metadata: Metadata = {
   title: "Naviss Technologies — Lets build something that matters.",
+  authors: [
+    {
+      name: "Naviss Technologies",
+      url: "https://www.naviss.com",
+    },
+  ],
+  keywords: [
+    "Naviss Technologies",
+    'naviss',
+    "Geospatial Solutions",
+    "Digital Solutions",
+    "Spatial Data",
+    "Strategic Advantage",
+    "Governments",
+    "NGOs",
+    "Enterprises",
+    "Africa",
+  ],
+  
   description: "Geospatial & digital solutions firm transforming spatial data into strategic advantage for governments, NGOs, and enterprises across Africa.",
   icons: {
     icon: "/favicon.ico",
