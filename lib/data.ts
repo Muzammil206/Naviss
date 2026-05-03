@@ -65,7 +65,7 @@ export const PROJECTS = [
   {
     id: "004",
     title: "OGIM – Nigeria Oil & Gas Infrastructure Monitor",
-    client: "Agricultural Development Agency",
+    client: " ",
     region: "Nigeria and Some part of West Africa",
     year: "2024",
     sector: "Oil & Gas",
