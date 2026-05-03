@@ -190,7 +190,7 @@ export const TEAM = [
   {
     id: "006",
     name: "AYODELE SAMSON FERANMI",
-    role: "Training & Capacity Development Lead",
+    role: "GIS Analyst & Remote Sensing Specialist",
     shortBio: "Samson Feranmi is a geospatial analyst and urban planner with specializing in spatial analysis and enviromental assessment",
     bio: "Samson Feranmi is a geospatial analyst specializing in spatial analysis and environmental assessment.He has experience in geospatial data analysis, remote sensing, mapping, and urban planning, with a focus on applying GIS techniques to real-world environmental and urban challenges.",
     expertise: ["Urban Planning", "Google earth engine", "", "Geospatial analysis", "Technical Documentation"],
