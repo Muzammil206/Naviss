@@ -5,6 +5,9 @@ import Cursor from "@/components/ui/Cursor";
 
 export const metadata: Metadata = {
   title: "Naviss Technologies — Lets build something that matters.",
+  verification: {
+    google: "H3f2Lc3y35uWsMVX381hJHGazHAVI-0HVLI_U3qR5-M",
+  },
   authors: [
     {
       name: "Naviss Technologies",
