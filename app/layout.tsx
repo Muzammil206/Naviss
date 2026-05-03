@@ -21,6 +21,7 @@ export const metadata: Metadata = {
     "Governments",
     "NGOs",
     "Enterprises",
+    "Abuja",
     "Africa",
   ],
   
