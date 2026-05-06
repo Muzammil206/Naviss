@@ -139,7 +139,7 @@ export const TEAM = [
     shortBio: "Geospatial strategist with 8+ years transforming spatial data into strategic advantage for governments and enterprises across West Africa.",
     bio: "Ismail founded Naviss Technologies with a vision to democratize access to geospatial intelligence across Africa. With extensive experience in large-scale GIS implementations for government agencies, NGOs, and private sector clients, he leads strategic direction and client engagement. His expertise spans WebGIS architecture, land administration systems, and capacity development programmes.",
     expertise: ["Geospatial Strategy", "GIS Architecture", "PostGIS / PostgreSQL", "Python / Django", "AWS / Azure", "Spatial APIs"],
-    image: "/myimage.png",
+    image: "/ade.PNG",
     email: "ismailmuzammil206@gmail.com",
     linkedin: "https://linkedin.com/in/adeolaadeyemi",
   },
