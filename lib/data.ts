@@ -176,8 +176,22 @@ export const TEAM = [
     email: "habeebibrahim946@gmail.com",
     linkedin: "https://linkedin.com/in/fatimabello",
   },
+
   {
     id: "005",
+    name: "Mary-Anne Oluwabukunmi Imudia",
+    role: "Software Engineer",
+    shortBio: "skilled in developing efficient, user-focused digital solutions. Passionate about innovation, problem-solving, and creating scalable applications with clean and functional designs",
+    bio: "Mary-Anne supports Naviss projects through software development, system design, and user experience optimization. She is developing expertise in full-stack development, cloud technologies, and agile methodologies while contributing to live client deliverables. Her attention to detail and eagerness to learn make her a valuable asset to the technical team.",
+    expertise: ["Java", "Software Development", "Problem Solving", "Git/GitHub", "Team Collaboration", "Debugging", "Technical Documentation"],
+    image: 
+    '/marry.JPG',
+    email: "maryanne@naviss.tech",
+    linkedin: "https://linkedin.com/in/maryanneimudia",
+  },
+
+  {
+    id: "006",
     name: "Adebayo Oluwatosin Francis",
     role: "Geospatial Analyst",
     shortBio: "A proactive and solution-driven professional with hands-on experience in geospatial data collection, analysis, and mapping operations",
@@ -188,7 +202,7 @@ export const TEAM = [
     linkedin: "https://linkedin.com/in/emekanwankwo",
   },
   {
-    id: "006",
+    id: "007",
     name: "AYODELE SAMSON FERANMI",
     role: "GIS Analyst & Remote Sensing Specialist",
     shortBio: "Samson Feranmi is a geospatial analyst and urban planner with specializing in spatial analysis and enviromental assessment",
@@ -209,17 +223,8 @@ export const TEAM = [
   //   email: "ngozi@naviss.tech",
   //   linkedin: "https://linkedin.com/in/ngoziokeke",
   // },
-  {
-    id: "007",
-    name: "Yusuf Abubakar",
-    role: "Junior GIS Analyst",
-    shortBio: "Emerging geospatial professional supporting data processing, spatial analysis, and quality assurance across projects.",
-    bio: "Yusuf supports Naviss projects through data processing, cartographic production, and spatial analysis tasks. He is developing expertise in QGIS, Python scripting, and geodatabase management while contributing to live client deliverables. His attention to detail and eagerness to learn make him a valuable asset to the technical team.",
-    expertise: ["QGIS", "Data Processing", "Cartography", "Python Scripting", "Spatial Analysis"],
-    image: "https://images.unsplash.com/photo-1776942010620-ebd77b749e22?q=80&w=687&",
-    email: "yusuf@naviss.tech",
-    linkedin: "https://linkedin.com/in/yusufabubakar",
-  },
+
+
 ];
 // export const TICKER = ["Geospatial Intelligence","Drone & Satellite Mapping","Custom GIS Platforms","AI / ML Spatial Analytics","Digital Transformation","Cloud Infrastructure","Capacity Development","Real-Time Monitoring","Web GIS Dashboards","Spatial Databases"];
 
